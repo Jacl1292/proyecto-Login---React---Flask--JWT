@@ -15,7 +15,7 @@ app.config['DEBUG']= True
 app.config['ENV']= 'development'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS']= False
 app.config['SQLALCHEMY_DATABASE_URI']= os.environ.get('DATABASE_URL', 'sqlite:///db.sqlite3')
-app.config["JWT_SECRET_KEY"] = "super-secret"  # Change this!
+app.config["JWT_SECRET_KEY"] = "super-secret"  
 
 db.init_app(app)
 
