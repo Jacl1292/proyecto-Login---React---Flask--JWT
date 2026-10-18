@@ -1,0 +1,34 @@
+# Datos y configuración locales
+**/.env
+**/.env.*
+!**/.env.example
+**/instance/
+*.sqlite3
+*.sqlite3-*
+*.db
+*.db-*
+
+# Python
+**/__pycache__/
+*.py[cod]
+**/.venv/
+**/venv/
+
+# React / Vite
+**/node_modules/
+**/dist/
+**/dist-ssr/
+*.local
+*.log
+
+# Herramientas locales e historiales de los repositorios anteriores
+/.local-git-backups/
+**/.agents/
+**/.codex/
+**/.aws/
+/.vscode/
+.DS_Store
+
+# Pipenv se utiliza dentro de login-flask-jwt
+/Pipfile
+/Pipfile.lock
